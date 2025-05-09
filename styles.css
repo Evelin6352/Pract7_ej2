@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    
+    font-family: Arial, sans-serif;
+    background-image: url('images/art-background4.jpg');
+    background-position: left top;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: black;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Contenedor principal */
+body > article {
+    background-color: rgba(241, 237, 237, 0.7);
+    margin: 50px auto;
+    padding: 30px;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: white;
+    padding: 15px 0;
+    width: 320px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+ }
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: black;
+    margin-top: 5px;
+    
+}
+
+
+/* Sección de construcción */
+article h2 {
+    text-align: left;
+    font-size: 1.8em;
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+article p {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 10px 0;
+    
+}
+
+.edad {
+    background-color: rgba(101, 67, 33, 0.6);
+    color: white;
+    
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.Comen {
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.contenedor-transparente {
+    background-color: rgba(138, 133, 133, 0.4); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+footer img {
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s;
+    
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
